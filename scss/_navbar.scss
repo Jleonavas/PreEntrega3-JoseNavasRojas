@@ -1,0 +1,23 @@
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+
+     .ger {
+         .navbar {
+             .ul {
+                 .li {
+                     position: relative;
+                     float: left;
+
+                     .a {
+                         font-size: 18px;
+                         padding: 20px;
+                         color: rgb(88, 46, 7);
+                         display: block;
+                         font-weight: 600;
+                     }
+                 }
+             }
+         }
+     }
+ }
