@@ -1,17 +1,31 @@
-
 .productos {
     padding: 80px 0;
     text-align: center;
 
+    @media screen and (max-width:991px) {
+        padding: 30px;
+        text-align: center
+    }
+
     .h2 {
-        font-size: 40px;
         color: black;
         margin-bottom: 30px;
+
+        @media screen and (max-width:991px) {
+
+            font-size: 40px;
+        }
 
         .p {
             font-size: 18px;
             color: grey;
             margin-bottom: 70px;
+
+            @media screen and (max-width:991px) {
+
+                padding: 0;
+                margin-bottom: 40px;
+            }
 
         }
     }
@@ -24,6 +38,10 @@
         grid-auto-rows: auto;
         grid-gap: 3rem;
 
+        @media screen and (max-width:991px) {
+            grid-template-columns: repeat(1, 1fr)
+        }
+
         .producto {
             padding-bottom: 35px;
             text-align: center;
@@ -35,6 +53,9 @@
                 height: 250px;
                 object-fit: cover;
                 border-radius: 25px 25px 0 0;
+                @media screen and (max-width:991px) {
+                    width: 300px;
+                }
 
                 .h3 {
                     font-size: 40px;
@@ -53,7 +74,7 @@
                             color: white;
                             border-radius: 15px;
 
-                            &__hover {
+                            .hover {
                                 background-color: peru;
                             }
                         }

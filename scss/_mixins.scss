@@ -1,17 +1,4 @@
- @mixin destock {
-     @media screen and (max-width: 991px ) {
-         @content
-     }
- }
-
-@mixin reset-list {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     text-decoration: none;
-     list-style: none;
- }
-
- body {
-     font-family: 'Poppins', sans-serif;
- }
+$color-negro: black;
+$color-marron: rgb(216, 122, 15);
+$color-dorado: rgb(241, 218, 11);
+$color-doradoos: rgb(192, 145, 14);
