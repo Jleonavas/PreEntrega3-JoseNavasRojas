@@ -1,11 +1,12 @@
+@import "./mixins";
 .footer {
-    background-color: rgb(161, 89, 7);
+    background-color: $color-doradoos;
     padding: 100px 0;
 
     .footer-links {
         display: flex;
         justify-content: space-between;
-        color: white;
+        color: $color-blanco;
         font-size: 20px;
         margin-bottom: 20px;
 

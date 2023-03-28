@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-@import"header";
-@import "navbar";
-@import "mixins";
+@import"./header";
+@import "./navbar";
+@import "./mixins";
 @import "./pages/cards";
-@import "footer";
+@import "./footer";
 @import "./pages/productos";
-@import "reset";
+@import "./reset";
 @import "./pages/servicios";

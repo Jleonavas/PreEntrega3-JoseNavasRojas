@@ -14,7 +14,6 @@ header .ger {
   z-index: 1000;
 }
 header .ger .logo {
-  color: black;
   font-size: 25px;
   font-weight: 800;
 }
@@ -70,15 +69,15 @@ header .header-txt .h1 .h2 {
 }
 header .header-txt .h1 .h2 .icono {
   display: inline-block;
-  background-color: goldenrod;
+  background-color: rgb(192, 145, 14);
   padding: 13px 30px;
   border-radius: 25px;
-  color: ghostwhite;
+  color: grey;
   text-transform: capitalize;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 header .header-txt .h1 .h2 .icono__hover {
-  background-color: peru;
+  background-color: rgb(241, 218, 11);
 }
 
 .header-img {
@@ -109,6 +108,7 @@ header .header-txt .h1 .h2 .icono__hover {
 .container .ger .navbar .ul .li {
   position: relative;
   float: left;
+  color: rgb(216, 122, 15);
 }
 .container .ger .navbar .ul .li .a {
   font-size: 18px;
@@ -193,7 +193,7 @@ header .header-txt .h1 .h2 .icono__hover {
 }
 
 .footer {
-  background-color: rgb(161, 89, 7);
+  background-color: rgb(192, 145, 14);
   padding: 100px 0;
 }
 .footer .footer-links {
@@ -277,17 +277,17 @@ header .header-txt .h1 .h2 .icono__hover {
 .productos .producto-info .producto .img .h3 .p {
   font-size: 18px;
   padding: 30px;
-  color: gray;
+  color: grey;
   margin: 0;
 }
 .productos .producto-info .producto .img .h3 .p .a {
-  background-color: goldenrod;
+  background-color: rgb(192, 145, 14);
   padding: 10px;
   color: white;
   border-radius: 15px;
 }
 .productos .producto-info .producto .img .h3 .p .a .hover {
-  background-color: peru;
+  background-color: rgb(241, 218, 11);
 }
 
 * {
@@ -349,7 +349,7 @@ body {
   margin: 0;
 }
 .servicios .servicio-info .servicio .img .h3 .p .a {
-  background-color: goldenrod;
+  background-color: rgb(192, 145, 14);
   padding: 10px;
   color: white;
   border-radius: 15px;

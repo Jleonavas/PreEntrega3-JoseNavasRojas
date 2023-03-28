@@ -1,3 +1,4 @@
+@import "../mixins";
 .productos {
     padding: 80px 0;
     text-align: center;
@@ -8,7 +9,7 @@
     }
 
     .h2 {
-        color: black;
+        color: $color-negro;
         margin-bottom: 30px;
 
         @media screen and (max-width:991px) {
@@ -18,7 +19,7 @@
 
         .p {
             font-size: 18px;
-            color: grey;
+            color: $color-gris;
             margin-bottom: 70px;
 
             @media screen and (max-width:991px) {
@@ -59,23 +60,23 @@
 
                 .h3 {
                     font-size: 40px;
-                    color: black;
+                    color: $color-negro;
                     margin-top: 15px;
 
                     .p {
                         font-size: 18px;
                         padding: 30px;
-                        color: gray;
+                        color: $color-gris;
                         margin: 0;
 
                         .a {
-                            background-color: goldenrod;
+                            background-color: $color-doradoos;
                             padding: 10px;
-                            color: white;
+                            color: $color-blanco;
                             border-radius: 15px;
 
                             .hover {
-                                background-color: peru;
+                                background-color: $color-dorado;
                             }
                         }
                     }

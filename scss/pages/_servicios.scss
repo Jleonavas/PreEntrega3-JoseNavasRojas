@@ -4,12 +4,12 @@
 
     .h2 {
         font-size: 40px;
-        color: black;
+        color: $color-negro;
         margin-bottom: 30px;
 
         .p {
             font-size: 18px;
-            color: grey;
+            color: $color-gris;
             margin-bottom: 70px;
             padding: 0 200px;
         }
@@ -37,7 +37,7 @@
 
                 .h3 {
                     font-size: 40px;
-                    color: black;
+                    color: $color-negro;
                     margin-top: 15px;
 
                     .p {
@@ -47,9 +47,9 @@
                         margin: 0;
 
                         .a {
-                            background-color: goldenrod;
+                            background-color: $color-doradoos;
                             padding: 10px;
-                            color: white;
+                            color: $color-blanco;
                             border-radius: 15px;
 
                             .a:hover {

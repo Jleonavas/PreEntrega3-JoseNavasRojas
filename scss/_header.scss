@@ -1,3 +1,4 @@
+@import "./mixins";
 header {
     display: flex;
     position: relative;
@@ -15,7 +16,6 @@ header {
 
 
         .logo {
-            color: black;
             font-size: 25px;
             font-weight: 800;
         }
@@ -57,7 +57,7 @@ header {
 
         .h1 {
             font-weight: 600;
-            color: black;
+            color: $color-negro;
             margin-bottom: 25px;
             text-transform: capitalize;
 
@@ -68,20 +68,20 @@ header {
 
             .h2 {
                 font-size: 25px;
-                color: grey;
+                color: $color-gris;
                 margin-bottom: 35px;
 
                 .icono {
                     display: inline-block;
-                    background-color: goldenrod;
+                    background-color: $color-doradoos;
                     padding: 13px 30px;
                     border-radius: 25px;
-                    color: ghostwhite;
+                    color: $color-gris;
                     text-transform: capitalize;
                     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
                     &__hover {
-                        background-color: peru;
+                        background-color: $color-dorado;
                     }
                 }
             }
