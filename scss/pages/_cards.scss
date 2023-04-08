@@ -8,6 +8,10 @@
         padding: 30px;
         text-align: center;
     }
+    @media screen and (max-width:480px) {
+        padding: 0px;
+        text-align: center;
+    }
 
     .infos h2 {
         font-size: 45px;
@@ -45,6 +49,9 @@
             display: grid;
             justify-items: center;
         }
+        @media screen and (max-width:480px) {
+            padding: 0px;
+        }
 
 
         .info {
@@ -55,8 +62,11 @@
             @media screen and (max-width:991px) {
                 width: 500px;
             }
-            @media screen and (max-width:550px) {
+            @media screen and (max-width:600px) {
                 width: 300px;
+            }
+            @media screen and (max-width:480px) {
+                width: 250px;
             }
 
             .img {
@@ -67,6 +77,9 @@
 
                 @media screen and (max-width:991px) {
                     width: 300px;
+                }
+                @media screen and (max-width:480px) {
+                    width: 250px;
                 }
             }
 

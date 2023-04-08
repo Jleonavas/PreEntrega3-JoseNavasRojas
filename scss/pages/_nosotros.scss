@@ -1,0 +1,38 @@
+@import "../mixins";
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin-block: 140px 0;
+
+    
+    .img {
+        width: 50%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        object-fit: cover;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    @media screen and (max-width:750px) {
+        width: 100%;
+        justify-content: center;
+        margin-block: 140px 0;
+    }
+    @media screen and (max-width:550px) {
+        width: 100%;
+        margin-block: 212px 0;
+    }
+
+
+
+}
+
+.parrafo {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    @media screen and (max-width:480px) {
+        font-size: 18px;
+        padding: 10px;
+    }
+}

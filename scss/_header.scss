@@ -15,6 +15,11 @@ header {
         z-index: 1000;
         padding: 30px;
 
+        @media screen and (max-width:480px) {
+            margin: 0px;
+            padding: 0px;
+        }
+
 
         .logo {
             color: $color-doradoos;
@@ -44,18 +49,31 @@ header {
             flex-direction: column;
             padding: 30px;
         }
+
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            padding: 0px;
+            width: 250px;
+        }
     }
 
     .header-txt {
         width: 100%;
-        padding-left: 100px;
-        margin-block: 200px;
+        margin-block: 200px -100px;
         text-align: center;
 
         @media screen and (max-width:991px) {
             width: 100%;
             text-align: center;
             padding: 30px;
+            margin-block: 200px -185px;
+        }
+
+        @media screen and (max-width:550px) {
+            width: 100%;
+            text-align: center;
+            padding: 0;
+            margin-block: 200px -205px;
         }
 
         .h1 {
@@ -90,11 +108,14 @@ header {
 
 .header-img {
     width: 50%;
+    display: flex;
 
     @media screen and (max-width:991px) {
         width: 100%;
         text-align: center;
-        padding-top: 35px
+        padding-top: 35px;
+        flex-direction: column;
+        padding: 30px;
     }
 
     .img {
@@ -104,7 +125,14 @@ header {
         border-radius: 20px;
 
         @media screen and (max-width:991px) {
-            width: 300px;
+            width: 80%;
+            margin-block: 200px -18px;
+        }
+
+        @media screen and (max-width:480px) {
+            margin: 0;
+            width: 100%;
+            margin-block: 200px 25px;
         }
 
     }

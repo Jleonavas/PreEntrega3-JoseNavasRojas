@@ -1,0 +1,105 @@
+@import "../mixins";
+
+.contacto {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 150px;
+    @media screen and (max-width:991px) {
+        padding: 10px;
+        
+    }
+
+    .registro {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 50px 35px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+        @media screen and (max-width:991px) {
+            margin-block: 60px 0;
+            width: 70%;
+        }
+        @media screen and (max-width:750px) {
+            padding: 20px;
+            width: 88%;
+        }
+
+        .h2 {
+            font-size: 35px;
+            color: $color-negro;
+            margin: 0;
+        }
+
+        .p {
+            font-size: 16px;
+            color: $color-gris;
+            margin-bottom: 35px;
+        }
+
+        .input-wrapper {
+            position: relative;
+            width: 100%;
+            margin-bottom: 35px;
+            @media screen and (max-width:991px) {
+                position: relative;
+                width: 88%;
+                margin-bottom: 35px;
+            }
+            @media screen and (max-width:550px) {
+                position: relative;
+                width: 88%;
+                margin-bottom: 10px;
+            }
+
+            .formulario {
+                color: $color-negro;
+                padding: 20px 15px 20px 60px;
+                width: 100%;
+                border-radius: 25px;
+                border: 0;
+                box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+                outline: none;
+                font-size: 16px;
+                @media screen and (max-width:991px) {
+                    padding: 20px 0px 20px 45px;
+                }
+
+                .placeholder {
+                    font-size: 16px;
+                    color: $color-gris;
+                }
+            }
+
+            .input-icon {
+                position: absolute;
+                height: 30px;
+                width: 30px;
+                left: 20px;
+                top: 50%;
+                transform: translateY(-55%);
+                @media screen and (max-width:991px) {
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+        }
+
+        .btn {
+            padding: 20px;
+            background: rgb(241, 218, 11);
+            box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+            color: $color-blanco;
+            text-transform: uppercase;
+            font-size: 14px;
+            cursor: pointer;
+
+            .btn:hover {
+                background: rgb(192, 145, 14, );
+            }
+        }
+    }
+}
